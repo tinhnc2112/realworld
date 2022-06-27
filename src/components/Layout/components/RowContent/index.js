@@ -4,16 +4,14 @@ import style from './RowContent.module.scss';
 import 'antd/dist/antd.min.css';
 import { Col, Row } from 'antd';
 import FeedContent from '~/components/Layout/components/FeedContent';
-import { useEffect, useState, createContext } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { apiGeneral, articles, token } from '~/components/common/common';
 import YourFeed from '~/components/Layout/components/YourFeed';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
-// import Tag from '~/components/Layout/components/Tag';
 
 const cl = classNames.bind(style);
-export const TagContext = createContext();
 
 function RowContent() {
    const [article, setArticle] = useState({});
