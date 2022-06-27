@@ -1,0 +1,168 @@
+.container {
+   padding: 0 1rem;
+}
+
+.tag {
+   padding: 0 1rem;
+}
+
+.feed_toggle {
+   display: flex;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.feed_toggle li {
+   padding: 8px 16px;
+}
+
+.active a {
+   color: #5cb85c !important;
+}
+
+.d-none {
+   display: none;
+}
+
+.tag {
+   min-width: 7.8rem;
+   padding: 5px 10px 10px;
+   background: #f3f3f3;
+   border-radius: 4px;
+}
+
+.tag_popular {
+   display: inline-flex;
+   flex-wrap: wrap;
+}
+
+.tag_default {
+   color: #fff;
+   margin: 0 0.3rem 0.3rem 0;
+   background-color: #818a91;
+   border-radius: 48rem;
+   font-weight: 300;
+   font-size: 0.8rem;
+   padding: 0 0.48rem;
+}
+
+.content {
+   padding: 1.5rem 0;
+}
+
+.head {
+   margin: 0 0 1rem;
+   display: flex;
+   justify-content: space-between;
+}
+
+.head_1 {
+   align-items: center;
+}
+
+.avatar {
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.info {
+   flex: 1;
+   margin-left: 12px;
+}
+
+.name {
+   font-size: 1rem;
+   font-weight: 500;
+   color: var(--primary) !important;
+   &:hover {
+      color: #3d8b3d !important;
+      text-decoration: underline;
+   }
+}
+
+.create-time {
+   height: 1rem;
+   color: #bbb;
+   font-size: 0.8rem;
+   display: block;
+}
+
+.favorites button {
+   width: 4.2rem;
+   height: 1.8rem;
+   line-height: 0.8rem;
+   color: #5cb85c;
+   background-color: #fff;
+   border: 1px solid #5cb85c;
+   padding: 0.25rem 0.5rem;
+   font-size: 0.875rem;
+   border-radius: 0.2rem;
+   cursor: pointer;
+   &:hover {
+      color: #fff;
+      background-color: #5cb85c;
+   }
+   .icon {
+      margin-right: 3px;
+   }
+}
+.favorites_active button {
+   width: 4.2rem;
+   height: 1.8rem;
+   line-height: 0.8rem;
+   color: #fff;
+   background-color: #5cb85c;
+   border: 1px solid #5cb85c;
+   padding: 0.25rem 0.5rem;
+   font-size: 0.875rem;
+   border-radius: 0.2rem;
+   cursor: pointer;
+   &:hover {
+      color: #fff;
+      background-color: #449d44;
+      border: 1px solid #449d44;
+   }
+   .icon {
+      margin-right: 3px;
+   }
+}
+.body_title {
+   font-weight: 600;
+   margin-bottom: 3px;
+}
+
+.body_desc {
+   font-weight: 300;
+   color: #999;
+   margin-bottom: 1rem;
+   font-size: 1rem;
+   line-height: 1.3rem;
+}
+
+.footer {
+   justify-content: space-between;
+}
+
+.footer span {
+   font-size: 0.8rem;
+   font-weight: 300;
+   color: #bbb;
+   vertical-align: middle;
+}
+
+.tag_item {
+   border: 1px solid #ddd;
+   color: #aaa;
+   border-radius: 48rem;
+   font-weight: 300;
+   font-size: 0.8rem;
+   padding: 0 0.48rem;
+}
+
+.tag_list {
+   display: inline-flex;
+}
+
+li + li {
+   margin-left: 0.25rem;
+}

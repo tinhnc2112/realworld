@@ -1,0 +1,41 @@
+.footer_{
+    background: #f3f3f3;
+    margin-top: 3rem;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container{
+    padding: 0 15px;
+    margin: 0 120px;
+    a{
+        text-decoration: underline;
+    }
+
+    a:hover{
+        color: #3d8b3d !important;
+        text-decoration: underline;
+    }
+
+    span{
+        font-size: 0.8rem;
+        color: #bbb;
+        font-weight: 300;
+    }
+
+}
+
+
+
+.logo{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 3.5rem;
+    margin-right: 10px;
+    color: #5cb85c !important;
+}
+

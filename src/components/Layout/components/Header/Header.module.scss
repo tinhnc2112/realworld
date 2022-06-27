@@ -1,0 +1,49 @@
+.wrapper {
+   height: 56px;
+   width: 100%;
+   position: relative;
+   padding: 8px 16px;
+   display: flex;
+   justify-content: space-between;
+}
+.logo {
+   font-size: 1.5rem;
+   font-weight: 700;
+   padding-top: 0;
+   margin-left: 7.5rem;
+   color: #5cb85c;
+}
+.inner {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 7.4rem;
+   margin-bottom: 0;
+}
+
+.home {
+   margin-right: 14px;
+}
+
+.user {
+   display: flex;
+   align-items: center;
+}
+
+.user li {
+}
+
+.user a:hover {
+   color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.user > li > a {
+   margin-right: 14px;
+   color: rgba(0, 0, 0, 0.3);
+}
+
+.small-avt {
+   width: 1.2rem !important;
+   border-radius: 50%;
+   object-fit: cover;
+}

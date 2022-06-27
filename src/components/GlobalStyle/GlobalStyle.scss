@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;600;700&family=Mulish:wght@300;400;600;700&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+:root {
+   --primary: #5cb85c;
+   --default-layout-header-height: 60px;
+   --default-layout-width: 1150px;
+   --black: #000;
+   --white: #fff;
+   --gray: #999;
+   --text-color: #333;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+html {
+   font-size: 16px;
+}
+
+body {
+   font-size: 1rem !important;
+   font-family: 'Titillium Web', sans-serif !important;
+   text-rendering: optimizeSpeed;
+   line-height: 1.4 !important;
+}
+
+button [tabindex] {
+   outline: none;
+   border: none;
+}
+
+a[href] {
+   color: var(--text-color);
+   text-decoration: none;
+}
+a[href]:hover {
+   color: #000;
+}
+ul {
+   list-style-type: none;
+}
+
+.flex {
+   display: flex;
+}
+
+.mr-3 {
+   margin-right: 3px;
+}
